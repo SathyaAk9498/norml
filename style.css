@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    margin: 0 36%;
+    height: 105px;
+    background-color:gold;
+    margin-top: 2%;
+}
+.logo img{
+    width: 16%;
+    margin-left: 5%;
+    margin-top: 2%;
+
+}
+#skill{
+    margin: 0 36%;
+    height: 400px;
+    background-color:gold;
+}
+.name h2{
+    font-weight: 200;
+    color: rgb(54, 53, 53);
+    margin-bottom: 9%;
+    font-size: 29px;
+    margin-left: 5%;
+}
+hr{
+    margin-left: 5%;
+    margin-bottom: 9%;
+}
+.quboyd h2{
+    font-weight: 200;
+    font-size: 22px;
+    margin-bottom: 3%;
+}
+.quboyd{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.loca{
+    display: flex;
+}
+.loca li{
+list-style-type: none;
+margin: 4%;
+}
+.loca li a{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width:576px){
+    header{
+        margin: 0 3%;
+        height: 105px;
+        background-color:gold;
+        margin-top: 2%;
+    }
+    .logo img{
+
+        width: 16%;
+        margin-left: 5%;
+        margin-top: 2%;
+    
+    }
+    #skill{
+        margin: 0 3%;
+        height: 400px;
+        background-color:gold;
+    }
+    .name h2{
+        font-weight: 200;
+        color: rgb(54, 53, 53);
+        margin-bottom: 9%;
+        font-size: 29px;
+    }
+    hr{
+        margin-left: 5%;
+        margin-bottom: 9%;
+    }
+    .quboyd h2{
+        font-weight: 200;
+        font-size: 22px;
+        margin-bottom: 3%;
+    }
+    .quboyd{
+        margin-left: 5%;
+        margin-bottom: 2%;
+    }
+    .loca{
+        display: flex;
+    }
+    .loca li{
+    list-style-type: none;
+}
+
